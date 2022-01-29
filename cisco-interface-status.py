@@ -13,5 +13,5 @@ results = parser.parse(show_version,"show interface description","nxos")
 for key,value in results.items():
         for key1,value1 in value.items():
                 for key2,value2 in value1.items():
-                        if value2 == "down" or value2 == "admin-down":
+                        if value2 == "down":
                                 print(f"{key1} interface is in down state.")
