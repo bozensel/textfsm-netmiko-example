@@ -1,2 +1,2 @@
 # textfsm-netmiko-example
-how get admin "down" interfaces using parser. 
+how to get admin "down" interfaces using parser. 
